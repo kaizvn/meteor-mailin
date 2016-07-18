@@ -26,6 +26,6 @@ Npm.depends({
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('meteor-mailin');
+  api.use('kaizvn:meteor-mailin');
   api.mainModule('meteor-mailin.js');
 });

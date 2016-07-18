@@ -2,7 +2,7 @@
 import { Tinytest } from "meteor/tinytest";
 
 // Import and rename a variable exported by meteor-mailin.js.
-import { name as packageName } from "meteor/meteor-mailin";
+import { name as packageName } from "meteor/kaizvn:meteor-mailin";
 
 // Write your tests here!
 // Here is an example.
