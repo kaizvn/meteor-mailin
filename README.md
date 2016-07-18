@@ -1,11 +1,12 @@
-#Meteor packages for mailin.
+# Meteor packages for mailin.
 
 
-### Current version 0.1.0
-
+### Current version: 0.1.0
+##  Link package: https://atmospherejs.com/kaizvn/meteor-mailin
 
 ## What's mailin?
 - Mailin is an artisanal inbound emails for every web app: start an SMTP server, listen for all email then parse into JSON and post to webhooks (optional).
+- More infomation : please visit [mailin github](https://github.com/Flolagale/mailin).
 
 
 ## Version
@@ -19,14 +20,16 @@
     meteor add kaizvn:meteor-mailin
  ```
  
- - For meteor below 1.4
+- For meteor below 1.4
  ```
     meteor add kaizvn:meteor-mailin@=0.1.0
  ```
  
- - Create new `Mailin` and set event handler
-    ```
-        /* All valid option in mailin document here: https://github.com/Flolagale/mailin */ 
+- Create new `Mailin` and set event handler
+
+    All valid options and events in mailin are [here](https://github.com/Flolagale/mailin).
+     
+    ``` 
         let options = {port: 2525}; 
         let mailin = new MeteorMailin(options);
         
@@ -56,5 +59,6 @@
     ```
 
 
-##License
-  [MIT](/LICENSE)
+## License
+
+  MIT
