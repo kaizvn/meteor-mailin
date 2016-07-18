@@ -25,7 +25,7 @@
  ```
  
  - Create new `Mailin` and set event handler
- 
+    ```
         /* All valid option in mailin document here: https://github.com/Flolagale/mailin */ 
         let options = {port: 2525}; 
         let mailin = new MeteorMailin(options);
@@ -53,7 +53,7 @@
         Meteor.startup(() => {
             mailin.startServer();
         });
-
+    ```
 
 
 ##License
