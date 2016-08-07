@@ -8,6 +8,8 @@
 - Mailin is an artisanal inbound emails for every web app: start an SMTP server, listen for all email then parse into JSON and post to webhooks (optional).
 - More infomation : please visit [mailin github](https://github.com/Flolagale/mailin).
 
+## On-going
+- Send email to sender if operation failed.
 
 ## Version
 - 0.1.0
