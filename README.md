@@ -13,6 +13,8 @@
 - Response maker, validate output.
 
 ## Version
+- 1.0.0
+    - Run latest mailin version (3.0.3) on meteor > 1.4.
 - 0.1.0
     - Because mailin version > 3.0 only runnable on nodejs version 4.0+, so if you're running meteor lower than version 1.4, please use `meteor-mailin@0.1.0`.
 
