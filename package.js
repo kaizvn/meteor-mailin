@@ -1,6 +1,6 @@
 Package.describe({
   name: 'kaizvn:meteor-mailin',
-  version: '0.1.0',
+  version: '1.0.0',
   // Brief, one-line summary of the package.
   summary: 'A meteor package for mailin library. Run on meteor below 1.4',
   // URL to the Git repository containing the source code for this package.
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.3.4.1');
+  api.versionsFrom('1.4.1.1');
   api.use('ecmascript');
   api.mainModule('meteor-mailin.js','server');
 
@@ -19,7 +19,7 @@ Package.onUse(function(api) {
 });
 
 Npm.depends({
-  'mailin': '1.0.1'
+  'mailin': '3.0.3'
 });
 
 

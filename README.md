@@ -10,6 +10,7 @@
 
 ## On-going
 - Send email to sender if operation failed.
+- Response maker, validate output.
 
 ## Version
 - 0.1.0
