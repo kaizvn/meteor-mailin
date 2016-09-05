@@ -2,7 +2,7 @@ Package.describe({
   name: 'kaizvn:meteor-mailin',
   version: '1.0.0',
   // Brief, one-line summary of the package.
-  summary: 'A meteor package for mailin library. Run on meteor below 1.4',
+  summary: 'A meteor package for mailin library.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/kaizvn/meteor-mailin',
   // By default, Meteor will default to using README.md for documentation.
